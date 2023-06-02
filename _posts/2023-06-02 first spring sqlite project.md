@@ -303,9 +303,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 ```
 
-- hibernate.ddl-auto은 서버와 DB 간의 데이터(테이블 형태 등) 동기화 방법에 대해 정의
-    - 최초 테이블 생성을 위해 update를 사용하였지만, 운영 서버에서는 none 또는 validate를 이용하는것을 권장
-- spring.jpa.show-sql은 자동으로 생성된 쿼리문 출력여부를 결정
+- hibernate.ddl-auto은 운영 서버에서는 none 또는 validate를 이용하는것을 권장
 - apllication.properties 여기만 바꿔주면 됨
 
 # Springboot
