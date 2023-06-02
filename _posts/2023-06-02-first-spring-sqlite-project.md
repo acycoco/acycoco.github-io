@@ -1,5 +1,5 @@
 ---
-layout: 
+layout: post
 title: "Spring을 이용한 첫번째 간단한 프로젝트"
 ---
 
