@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: acycoco's blog
+email: acycoco@github.com
+author: acycoco
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -42,7 +42,8 @@ author: GitHub User
 #
 copyright: "Unpublished Work (cleft) 2017-{currentYear} {author}"
 
-description: >- # this means to ignore newlines until "baseurl:"
+description: "백엔드 개발자를 목표로 하는 블로그입니다. 알고리즘, cs, 프로젝트 관련 글이 올라옵니다."
+>- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -56,64 +57,64 @@ favicon: "" # the favicon for your site
 yat:
   date_format: "%b %d, %Y"
 
-# If you want more debug log, you can set true
+# 디버그 로그를 더 많이 보려면 true로 설정할 수 있습니다.
 # debug: false
 
-# If you don't want transparent header, you can set false
+# 투명 헤더를 사용하지 않으려면 false로 설정할 수 있습니다.
 # header_transparent: true
 
-# If you want to change the content width, you can set to another value
+# 콘텐츠 너비를 변경하려면 다른 값으로 설정할 수 있습니다.
 # content_width: "920px"
 
-# Google analytics
-# google_analytics: [Tracking ID]
+# Google Analytics
+# google_analytics: [추적 ID]
 
-# If you want to generate website sitemap, you can set true
-# sitemap: false
+# 웹사이트 사이트맵을 생성하려면 true로 설정할 수 있습니다.
+sitemap: true
 
-# If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+# 사이트 언어를 변경하려면 lang 옵션을 설정할 수 있습니다.
+lang: "ko"  # 기본 언어는 en입니다.
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-# translate_langs:
-#   - lang: en
-#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-#     text: English
-#
-#   - lang: fr
-#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-#     text: French
-#
-#   - lang: zh-CN
-#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-#     text: Chinese(Simple)
-#
-#   - lang: ja
-#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-#     text: Japanese
-#
-#   - lang: ko
-#     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-#     text: Korean
-#
-#   - lang: ru
-#     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-#     text: Russian
+translate_langs:
+   - lang: en
+     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+     text: English
 
-# You can choose a theme color
-# Default theme colors as below:
+   - lang: fr
+     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+     text: French
+
+   - lang: zh-CN
+     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+     text: Chinese(Simple)
+
+   - lang: ja
+     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
+     text: Japanese
+
+   - lang: ko
+     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+     text: Korean
+
+   - lang: ru
+     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
+     text: Russian
+
+# 테마 색상을 선택할 수 있습니다.
+# 기본 테마 색상은 다음과 같습니다:
 # coolblack: #090a0b
 # spacegrey: #353535
 # snowwhite: #ffffff
 #
 # theme_color: snowwhite
 #
-# Custom color as below:
+# 사용자 정의 색상은 다음과 같습니다:
 # theme_color: "#882250"
 
-# You can choose a brand color
-# Default brand colors as below:
+#  브랜드 색상을 선택할 수 있습니다.
+# 기본 브랜드 색상은 다음과 같습니다:
 # orangered: #ff5100
 # greatgold: #f2cb05
 # greenblue: #389092
