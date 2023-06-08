@@ -70,37 +70,37 @@ yat:
 # google_analytics: [추적 ID]
 
 # 웹사이트 사이트맵을 생성하려면 true로 설정할 수 있습니다.
-sitemap: true
+# sitemap: true
 
 # 사이트 언어를 변경하려면 lang 옵션을 설정할 수 있습니다.
-lang: "ko"  # 기본 언어는 en입니다.
+# lang: "ko"  # 기본 언어는 en입니다.
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-translate_langs:
-   - lang: en
-     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-     text: English
+# translate_langs:
+#    - lang: en
+#      img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+#      text: English
 
-   - lang: fr
-     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-     text: French
+#    - lang: fr
+#      img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+#      text: French
 
-   - lang: zh-CN
-     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-     text: Chinese(Simple)
+#    - lang: zh-CN
+#      img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+#      text: Chinese(Simple)
 
-   - lang: ja
-     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-     text: Japanese
+#    - lang: ja
+#      img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
+#      text: Japanese
 
-   - lang: ko
-     img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-     text: Korean
+#    - lang: ko
+#      img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+#      text: Korean
 
-   - lang: ru
-     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-     text: Russian
+#    - lang: ru
+#      img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
+#      text: Russian
 
 # 테마 색상을 선택할 수 있습니다.
 # 기본 테마 색상은 다음과 같습니다:
